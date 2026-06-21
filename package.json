@@ -1,0 +1,10 @@
+{
+  "name": "inventory-system-runner",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd inventory-system && npm run dev",
+    "build": "cd inventory-system && npm run build",
+    "start": "cd inventory-system && npm run start",
+    "install": "cd inventory-system && npm install"
+  }
+}
