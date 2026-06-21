@@ -1,11 +1,16 @@
 export default function SupplierFilter({ value, onChange }) {
   return (
-    <input
-      type="text"
-      placeholder="Filter by supplier..."
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      className="border p-2 rounded w-full max-w-sm mb-4"
-    />
+    <div className="flex justify-center my-4">
+      <input
+        type="text"
+        placeholder="Filter by supplier..."
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="w-full max-w-md px-4 py-3 border border-gray-300 rounded-lg shadow-md 
+                   text-gray-700 placeholder-gray-400 
+                   focus:outline-none focus:ring-2 focus:ring-blue-400 
+                   focus:border-blue-400 transition"
+      />
+    </div>
   );
 }
